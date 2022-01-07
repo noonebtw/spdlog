@@ -81,3 +81,5 @@ cmake-build-*/
 *.tcl
 *.user
 *.sln
+/compile_commands.json
+/target/

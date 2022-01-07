@@ -1,0 +1,10 @@
+[package]
+name = "spdlog"
+authors = []
+standard = "c++14"
+version = "0.1.0"
+
+[lib]
+name = "spdlog"
+reparent-headers = false
+cc-flags = ["-DSPDLOG_NO_TLS", "-O2", "-DSPDLOG_WCHAR_TO_UTF8_SUPPORT", "-DSPDLOG_COMPILED_LIB"]
